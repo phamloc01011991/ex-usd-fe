@@ -13,7 +13,7 @@ const props = defineProps({
 function onReady(url)
 {
   var qrcode = new QRCode("id_qrcode");
-  qrcode.makeCode(`https://exessfinance.app/${props.referalCode }`)
+  qrcode.makeCode(`https://exnessfinance.app/${props.referalCode }`)
 }
 const theme = ref(localStorage.getItem('theme') || 'dark');
 
@@ -64,7 +64,7 @@ onMounted(()=>{
                         <span>{{ languagePack.home_invite_mycode }}</span> <span class="c">{{ props.referalCode }}<i @click="copyClipboard(`${props.referalCode}`)" class='bx bx-copy' ></i></span>
                     </div>
                     <div class="code">
-                        <span>{{ languagePack.home_invite_link_invite }}</span> <span class="c">https://exessfinance.app/{{ props.referalCode }} <i @click="copyClipboard(`https://exessfinance.app/${props.referalCode}`)" class='bx bx-copy' ></i></span>
+                        <span>{{ languagePack.home_invite_link_invite }}</span> <span class="c">https://exnessfinance.app/{{ props.referalCode }} <i @click="copyClipboard(`https://exnessfinance.app/${props.referalCode}`)" class='bx bx-copy' ></i></span>
                     </div>
                     <div class="qr-code-container">
                         <span>{{ languagePack.home_invite_link_orshare }}</span>

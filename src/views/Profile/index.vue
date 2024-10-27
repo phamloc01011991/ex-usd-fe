@@ -229,14 +229,14 @@ onMounted(async () => {
                         </div>
                         <span><i class='bx bx-right-arrow-alt'></i></span>
                     </div>
-                    <a class="item" href="https://exess.homes/#about" target="_blank">
+                    <a class="item" href="https://www.exess.store/#about" target="_blank">
                         <div class="left">
                             <i class="bx bx-detail"></i>
                             <span>{{ languagePack.profile_index_support_title2 }}</span>
                         </div>
                         <span><i class='bx bx-right-arrow-alt'></i></span>
                     </a>
-                    <a class="item" href="https://www.exnessfinance.homes/download" target="_blank">
+                    <a class="item" href="https://www.exess.store/download" target="_blank">
                         <div class="left">
                             <i class='bx bx-like'></i>
                             <span>{{ languagePack.profile_index_support_title3 }}</span>
@@ -250,7 +250,7 @@ onMounted(async () => {
                         </div>
                         <span><i class='bx bx-right-arrow-alt'></i></span>
                     </a>
-                    <a class="item" href="https://www.exnessfinance.homes/#features" target="_blank">
+                    <a class="item" href="https://www.exess.store/#features" target="_blank">
                         <div class="left">
                             <i class='bx bx-search-alt'></i>
                             <span>{{ languagePack.profile_index_support_title5 }}</span>
