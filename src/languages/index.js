@@ -4,10 +4,10 @@ import en from './en';
 let languagePack = {};
 
 export const getLanguagePack = async () => {
-    let locations = JSON.parse(localStorage.getItem('locations')) || { language: 'VN' };
+    let locations = JSON.parse(localStorage.getItem('locations')) || { language: 'EN' };
 
-    if (locations.language === 'VN') {
-      languagePack = vn;
+    if (locations.language === 'EN') {
+      languagePack = en;
     }
     if (locations.language === 'EN') {
       languagePack = en;
@@ -17,11 +17,11 @@ export const getLanguagePack = async () => {
 };
 
 export const setLanguage = (language) => {
-  const locations = JSON.parse(localStorage.getItem('locations')) || { language: 'VN' };
+  const locations = JSON.parse(localStorage.getItem('locations')) || { language: 'EN' };
 
   locations.language = language;
   localStorage.setItem('locations', JSON.stringify(locations));
-  if (language === 'VN') languagePack = vn;
+  if (language === 'EN') languagePack = en;
   else languagePack = en;
   window.location.reload();
 };
