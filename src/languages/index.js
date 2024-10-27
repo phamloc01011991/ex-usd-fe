@@ -9,9 +9,6 @@ export const getLanguagePack = async () => {
     if (locations.language === 'EN') {
       languagePack = en;
     }
-    if (locations.language === 'EN') {
-      languagePack = en;
-    }
 
   return languagePack;
 };

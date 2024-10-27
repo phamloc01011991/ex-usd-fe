@@ -574,7 +574,7 @@ onUnmounted(() => {
         <!-- ENVENT -->
         <div class="event" style="margin-top: 8px;">
           <div class="heading">
-            <h2>Sự kiện mới nhất</h2>
+            <h2>Latest events</h2>
           </div>
           <div class="new-event">
             <div class="item">

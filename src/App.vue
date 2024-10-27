@@ -13,7 +13,7 @@ const checkLogin = computed(() => store.getters.usersss);
 async function checkIpLocation() {
   if (locations == null) {
     locations = {
-      language: 'VN'
+      language: 'EN'
     }
     localStorage.setItem('locations', JSON.stringify(locations))
   }
