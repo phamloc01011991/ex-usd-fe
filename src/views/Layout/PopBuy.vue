@@ -544,7 +544,7 @@ background: #24af6c;
 .info {
   color: var(--text-color);
 }
-.flex {
+.flex {``
   display: flex;
 }
 .center-time {
